@@ -4,7 +4,7 @@ A modern, responsive Next.js website for Coreline Construction Company, featurin
 
 ## Features
 
-- **Modern Tech Stack**: Next.js 14 with App Router, TypeScript, and Tailwind CSS
+- **Modern Tech Stack**: Next.js 15 with App Router, React 19, TypeScript, and Tailwind CSS
 - **Animated UI**: Framer Motion for smooth animations and micro-interactions
 - **Responsive Design**: Mobile-first approach with beautiful layouts across all devices
 - **SEO Optimized**: Meta tags, semantic HTML, and performance optimization
@@ -21,18 +21,18 @@ A modern, responsive Next.js website for Coreline Construction Company, featurin
 
 ### Prerequisites
 
-- Node.js 18+ and npm installed
+- Node.js 18+ and pnpm installed
 
 ### Installation
 
 1. Install dependencies:
 ```bash
-npm install
+pnpm install
 ```
 
 2. Run the development server:
 ```bash
-npm run dev
+pnpm dev
 ```
 
 3. Open [http://localhost:3000](http://localhost:3000) in your browser
@@ -40,8 +40,8 @@ npm run dev
 ### Building for Production
 
 ```bash
-npm run build
-npm start
+pnpm build
+pnpm start
 ```
 
 ## Project Structure
